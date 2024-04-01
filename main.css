@@ -1,32 +1,16 @@
-/* 태그 선택자 */
-h1 {
-  color: blue;
+.container {
+  background-color: lightgray;
+  padding: 30px;
+  border: 3px solid blue;
 }
-
-/* 클래스 선택자 */
-.intro {
-  font-size: 24px;
-  color: green;
-}
-
-/* ID 선택자 */
-#first {
-  font-weight: bold;
-  color: red;
-}
-
-/* 자손 선택자 (div 내부의 span에만 적용) */
-div > span {
-  background-color: yellow;
-}
-
-/* 속성 선택자 (href 속성이 있는 요소에 적용) */
-a[href] {
-  text-decoration: none;
-  color: purple;
-}
-
-/* 클래스가 'highlight'인 li 태그를 선택하는 클래스 선택자 */
-li.highlight {
+.box {
+  width: 200px;
+  height: 100px;
   background-color: lightblue;
+  color: white;
+  text-align: center;
+  line-height: 100px;
+  margin: 20px;
+  border: 3px solid red;
+  padding: 20px;
 }
